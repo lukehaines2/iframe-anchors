@@ -5,12 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="public/favicon.ico" />
-  <title>Swipeable</title>
+  <title>PB iFrames</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="page-container">
+    <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/#box-sizing" target="bootstrap-frame">
+      <button onClick="document.getElementById('bootstrap-frame').scrollIntoView();">Scroll to BOX SIZING</button>
+    </a>
+    <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/#community" target="bootstrap-frame">
+      <button onClick="document.getElementById('bootstrap-frame').scrollIntoView();">Scroll to COMMUNITY</button>
+    </a>
+    <br />
+    <br />
+    <iframe src="https://getbootstrap.com/docs/4.5/getting-started/introduction/" frameborder="0" name="bootstrap-frame" width="75%" height="500px"></iframe>
+
+    <br />
+    <br />
+
+    <a href="https://getbootstrap.com/docs/4.5/components/alerts/#link-color" target="bootstrap-frame2">
+      <button onClick="document.getElementById('bootstrap-frame2').scrollIntoView();">Alerts -> Link Colour</button>
+    </a>
+    <a href="https://getbootstrap.com/docs/4.5/components/alerts/#javascript-behavior" target="bootstrap-frame2">
+      <button onClick="document.getElementById('bootstrap-frame2').scrollIntoView();">Alerts -> JS Behaviour</button>
+    </a>
+    <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/#box-sizing" target="bootstrap-frame2">
+      <button onClick="document.getElementById('bootstrap-frame2').scrollIntoView();">Change iFrame page</button>
+    </a>
+    <br />
+    <br />
+    <iframe src="https://getbootstrap.com/docs/4.5/components/alerts/" frameborder="0" name="bootstrap-frame2" id="bootstrap-frame2" width="75%" height="500px"></iframe>
+    <br />
+    <br />
 
   </div>
 </body>

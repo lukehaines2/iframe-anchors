@@ -13,4 +13,23 @@ body {
 
 .page-container {
   padding: 5px;
+  position: relative;
+}
+
+div[button-container] {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+  top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
 }
